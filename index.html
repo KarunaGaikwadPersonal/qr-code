@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center;  margin-top: 24px; color: #7b879d; position: fixed; bottom: 10px; width: 100%; }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: 500; }
+    .attribution a:hover { text-decoration: underline; }
+
+    body{
+      margin : 0;
+      font-family: Arial, sans-serif;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card{
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .qr-container{
+      margin-bottom: 20px;
+      background: #2c7dfa;
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .qr-container img{
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .title{
+      font-size: 18px;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      margin-bottom: 12px;
+    }
+
+    .description{
+      font-size: 14px;
+      color: hsl(220, 15%, 55%);
+      line-height: 1.5;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="qr-container">
+      <img src="./images/image-qr-code.png" alt="QR code">
+    </div>
+    <div class="title">
+      Improve your front-end skills by building projects
+    </div>
+    <div class="description">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Karuna Gaikwad</a>.
+  </footer>
+</body>
+</html>
