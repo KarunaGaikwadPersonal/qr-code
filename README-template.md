@@ -1,114 +1,93 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - QR Code Component Solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the QR code component challenge on Frontend Mentor. This challenge helped me practice building a simple, responsive layout using HTML and CSS.
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## 📌 Overview
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+### 📸 Screenshot
 
-## Overview
+![Project Screenshot](./screenshot.jpg)
 
-### Screenshot
+---
 
-![](./screenshot.jpg)
+### 🔗 Links
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+* Solution URL: https://karunagaikwadpersonal.github.io/qr-code/
+* Live Site URL: https://karunagaikwadpersonal.github.io/qr-code/
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+---
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+## ⚙️ My Process
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+### 🛠️ Built With
 
-### Links
+* Semantic HTML5
+* CSS custom properties
+* Flexbox
+* Mobile-first workflow
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+---
 
-## My process
+### 📚 What I Learned
 
-### Built with
+While working on this project, I improved my understanding of:
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+* Structuring HTML semantically
+* Centering elements using Flexbox
+* Creating responsive layouts
+* Using consistent spacing and alignment
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+Example of centering with Flexbox:
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+---
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+### 🚀 Continued Development
 
-### Continued development
+In future projects, I want to:
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+* Improve my responsive design skills
+* Write cleaner and more reusable CSS
+* Practice more Frontend Mentor challenges
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+---
 
-### Useful resources
+### 📖 Useful Resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+* https://developer.mozilla.org/ – Great for understanding HTML & CSS
+* https://css-tricks.com/ – Helped with Flexbox concepts
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+---
 
-### AI Collaboration
+### 🤖 AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+I used ChatGPT to:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+* Debug Git and deployment issues
+* Understand how to deploy using GitHub Pages
+* Improve my README structure
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+It helped speed up problem-solving and clarified concepts quickly.
 
-## Author
+---
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+## 👩‍💻 Author
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+* GitHub: https://github.com/KarunaGaikwadPersonal
+* Frontend Mentor: https://www.frontendmentor.io/profile/KarunaGaikwadPersonal
 
-## Acknowledgments
+---
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+## 🙌 Acknowledgments
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to Frontend Mentor for providing this challenge and helping improve my frontend skills.
